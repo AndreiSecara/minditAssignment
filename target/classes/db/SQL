@@ -1,0 +1,19 @@
+CREATE TABLE forums
+(
+  id serial,
+  name character varying(255)
+)
+
+CREATE TABLE posts
+(
+  id serial,
+  postcontent character varying(255)
+)
+
+CREATE TABLE users
+(
+  id serial,
+  user_name character varying(255),
+  email character varying(255),
+  password character varying(255)
+)
